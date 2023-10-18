@@ -4,20 +4,27 @@ body, h1, h2, p {
     padding: 0;
 }
 
+/* Style the body background */
+body {
+    background-color: #fff; /* Light gray background */
+    font-family: Arial, sans-serif;
+    color: #fff; /* Dark text color */
+    text-align: center;
+}
+
 /* Style the header */
 header {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
+    background-color: #fff
+    ; /* Dark gray header */
     padding: 20px;
-    font-family: "Minecraft", sans-serif;
+    font-family: Arial, sans-serif;
+    font-size: 36px;
+    color: #000; /* White text color */
 }
 
 /* Style the navigation menu */
 nav ul {
     list-style: none;
-    background-color: #333;
-    text-align: center;
 }
 
 nav ul li {
@@ -27,8 +34,7 @@ nav ul li {
 
 nav a {
     text-decoration: none;
-    color: #fff;
-    font-family: "Minecraft", sans-serif;
+    color: #000; /* Dark text color */
 }
 
 /* Style the main content section */
@@ -38,32 +44,31 @@ nav a {
 }
 
 h2 {
-    font-family: "Minecraft", sans-serif;
-    font-size: 36px;
+    font-size: 28px;
+    margin: 20px 0;
 }
 
 p {
-    font-family: "Minecraft", sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     margin: 20px 0;
 }
 
 .cta-button {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #55A0F7;
-    color: #fff;
+    background-color: #0078D4; /* Bright blue button */
+    color: #fff; /* White text color */
     text-decoration: none;
-    font-family: "Minecraft", sans-serif;
+    font-family: Arial, sans-serif;
     font-size: 20px;
     border-radius: 5px;
 }
 
 /* Style the footer */
 footer {
-    background-color: #333;
-    color: #fff;
+    background-color: #333; /* Dark gray footer */
+    color: #fff; /* White text color */
     text-align: center;
     padding: 10px;
-    font-family: "Minecraft", sans-serif;
+    font-family: Arial, sans-serif;
 }
